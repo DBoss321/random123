@@ -1,0 +1,47 @@
+ADMIN@LENOVO MINGW64 ~
+$ cd Desktop
+
+ADMIN@LENOVO MINGW64 ~/Desktop
+$ cd jQuery/
+
+ADMIN@LENOVO MINGW64 ~/Desktop/jQuery
+$ git init
+Initialized empty Git repository in C:/Users/ADMIN/Desktop/jQuery/.git/
+
+ADMIN@LENOVO MINGW64 ~/Desktop/jQuery (master)
+$ git add .
+
+ADMIN@LENOVO MINGW64 ~/Desktop/jQuery (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   index.js
+        new file:   style.css
+
+
+ADMIN@LENOVO MINGW64 ~/Desktop/jQuery (master)
+$ git commit -m "First Commit"
+[master (root-commit) 1d56a27] First Commit
+ 3 files changed, 66 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 index.js
+ create mode 100644 style.css
+
+ADMIN@LENOVO MINGW64 ~/Desktop/jQuery (master)
+$ git remote add o 'https://github.com/DarshanUdikeri/WAD'
+
+$ git push -u o master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1005 bytes | 502.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/DBoss321/WAD.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'o/master'.
